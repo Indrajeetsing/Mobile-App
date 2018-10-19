@@ -10,7 +10,7 @@ import { TabsPage } from './tabs.page';
 import { ContactPageModule } from '../contact/contact.module';
 import { AboutPageModule } from '../about/about.module';
 import { HomePageModule } from '../home/home.module';
-
+import { PartOnePageModule } from '../part-one/part-one.module';
 @NgModule({
   imports: [
     IonicModule,
@@ -19,7 +19,8 @@ import { HomePageModule } from '../home/home.module';
     TabsPageRoutingModule,
     HomePageModule,
     AboutPageModule,
-    ContactPageModule
+    ContactPageModule,
+    PartOnePageModule
   ],
   declarations: [TabsPage]
 })
